@@ -1,0 +1,37 @@
+AI BANNER PROMPT for BearBot
+=============================
+
+Generate a 1280x400 banner with any image AI (DALL-E, Midjourney, Ideogram,
+Leonardo, etc.), save it as assets/banner.png, and update the image line at
+the top of README.md to reference it instead of banner.svg.
+
+
+MAIN PROMPT
+-----------
+Wide GitHub repository banner, 1280x400, dark navy background with a subtle
+hexagonal cybersecurity pattern. A cute cartoon brown bear holds a glowing
+golden megaphone, announcing to the world. Floating beside it are three
+glowing app tiles: a blue chain-link icon, a green picture-frame icon, and a
+white text-lines icon. A small friendly blue robot marches alongside. Flat
+vector illustration style, bold colors, playful but techy. Bold white text
+overlay reads "BearBot" with a smaller subtitle "link - image - mass text
+poster for Discord". Clean, high contrast, suitable for a GitHub README
+header.
+
+
+SHORT ALTERNATIVE
+-----------------
+Flat vector banner, 1280x400, dark navy background with subtle hex pattern:
+a cartoon bear with a golden megaphone, three glowing tiles for link, image
+and text, and a small blue Discord-style robot. Title "BearBot" in bold
+white, subtitle "post it everywhere". Playful cybersecurity aesthetic.
+
+
+TIPS
+----
+- Generate at 1280x400 (GitHub README headers look best at that ratio).
+- Image AIs often garble text: if the title comes out wrong, generate the
+  artwork WITHOUT text and add the title yourself in Canva / Figma /
+  Photopea.
+- Save the result as assets/banner.png and change the first image line in
+  README.md from assets/banner.svg to assets/banner.png.

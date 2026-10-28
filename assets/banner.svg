@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="BearBot banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1421"/>
+      <stop offset="1" stop-color="#13223d"/>
+    </linearGradient>
+    <pattern id="hex" width="56" height="48" patternUnits="userSpaceOnUse">
+      <path d="M28 0L56 16v24L28 56 0 40V16z" fill="none" stroke="#1b2b49" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#hex)" opacity="0.4"/>
+
+  <!-- title -->
+  <text x="640" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">BearBot</text>
+  <text x="640" y="205" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#9fb3d1">link &#8226; image &#8226; mass text poster for Discord</text>
+  <text x="640" y="248" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#f5b942">honeypot-guarded when paired with BearAteTheHoneyPot</text>
+
+  <!-- ground path -->
+  <path d="M80 352 H1200" stroke="#33507e" stroke-width="4" stroke-dasharray="14 12" opacity="0.8"/>
+
+  <!-- bear -->
+  <g>
+    <circle cx="118" cy="224" r="16" fill="#8a5a2b"/>
+    <circle cx="162" cy="224" r="16" fill="#8a5a2b"/>
+    <circle cx="118" cy="224" r="8" fill="#5d3a1a"/>
+    <circle cx="162" cy="224" r="8" fill="#5d3a1a"/>
+    <circle cx="140" cy="258" r="42" fill="#8a5a2b"/>
+    <ellipse cx="140" cy="274" rx="21" ry="14" fill="#c89565"/>
+    <ellipse cx="140" cy="269" rx="7" ry="5" fill="#2b1d10"/>
+    <circle cx="126" cy="251" r="5" fill="#241608"/>
+    <circle cx="154" cy="251" r="5" fill="#241608"/>
+    <ellipse cx="140" cy="328" rx="48" ry="36" fill="#7a4e24"/>
+  </g>
+
+  <!-- megaphone in bear's paws -->
+  <g>
+    <path d="M205 300 L265 278 L265 322 L205 306 Z" fill="#f5b942"/>
+    <rect x="196" y="294" width="14" height="18" rx="4" fill="#b87704"/>
+    <path d="M270 270 q18 30 0 60" fill="none" stroke="#f5b942" stroke-width="5" stroke-linecap="round"/>
+    <path d="M282 262 q26 38 0 76" fill="none" stroke="#f5b942" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- three feature tiles: link, image, text -->
+  <!-- link tile -->
+  <g>
+    <rect x="470" y="290" width="90" height="62" rx="12" fill="#16294a" stroke="#33507e" stroke-width="3"/>
+    <path d="M495 330 a12 12 0 1 1 0 -18 l10 0" fill="none" stroke="#4a90d9" stroke-width="6" stroke-linecap="round"/>
+    <path d="M535 312 a12 12 0 1 1 0 18 l-10 0" fill="none" stroke="#4a90d9" stroke-width="6" stroke-linecap="round"/>
+    <line x1="502" y1="321" x2="528" y2="321" stroke="#4a90d9" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- image tile -->
+  <g>
+    <rect x="600" y="290" width="90" height="62" rx="12" fill="#16294a" stroke="#33507e" stroke-width="3"/>
+    <circle cx="625" cy="308" r="6" fill="#f5b942"/>
+    <path d="M612 340 l18 -18 l14 14 l12 -10 l22 14 z" fill="#3fa66a"/>
+    <rect x="612" y="302" width="56" height="40" rx="4" fill="none" stroke="#9fb3d1" stroke-width="3"/>
+  </g>
+  <!-- text tile -->
+  <g>
+    <rect x="730" y="290" width="90" height="62" rx="12" fill="#16294a" stroke="#33507e" stroke-width="3"/>
+    <line x1="744" y1="308" x2="806" y2="308" stroke="#eaf3ff" stroke-width="6" stroke-linecap="round"/>
+    <line x1="744" y1="322" x2="806" y2="322" stroke="#eaf3ff" stroke-width="6" stroke-linecap="round"/>
+    <line x1="744" y1="336" x2="786" y2="336" stroke="#eaf3ff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- robot -->
+  <g>
+    <line x1="900" y1="288" x2="900" y2="300" stroke="#4a90d9" stroke-width="4"/>
+    <circle cx="900" cy="284" r="4" fill="#4a90d9"/>
+    <rect x="882" y="300" width="36" height="34" rx="8" fill="#4a90d9"/>
+    <circle cx="893" cy="314" r="4.5" fill="#eaf3ff"/>
+    <circle cx="907" cy="314" r="4.5" fill="#eaf3ff"/>
+    <rect x="888" y="334" width="7" height="12" rx="3" fill="#3a6ea5"/>
+    <rect x="905" y="334" width="7" height="12" rx="3" fill="#3a6ea5"/>
+  </g>
+</svg>
